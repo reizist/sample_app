@@ -2,3 +2,5 @@
 
 herokuデプロイまでのサンプルアプリケーション。
 
+== http://reizist.herokuapp.com/
+
