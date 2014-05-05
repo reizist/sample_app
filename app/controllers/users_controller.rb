@@ -61,9 +61,9 @@ class UsersController < ApplicationController
     #Before actions
 
     def signed_in
-      unless signed_in?
+      if signed_in?
         store_location
-        redirect_to root_path, notice: "You have already Signed in."
+        redirect_to root_path #, notice: "You have already Signed in."
       end
     end
 
